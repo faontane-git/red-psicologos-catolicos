@@ -1,0 +1,44 @@
+# Python & Entornos Virtuales
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Base de datos y Archivos Locales
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+
+# Archivos de entorno y credenciales
+.env
+.env.local
+.env.*.local
+
+# Archivos de subidas locales (conserva las carpetas vacías con .gitkeep)
+backend/uploads/photos/*
+!backend/uploads/photos/.gitkeep
+backend/uploads/cvs/*
+!backend/uploads/cvs/.gitkeep
+
+# IDEs y Editores de Sistema
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
